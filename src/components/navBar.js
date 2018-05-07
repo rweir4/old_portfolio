@@ -9,6 +9,14 @@ class NavBar extends React.Component {
     this.toggleDropdown = this.toggleDropdown.bind(this);
   }
 
+  componentDidMount() {
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 515 && this.state.navClass === 'dropdown') {
+        this.setState({'navClass':'normal'});
+      }
+    });
+  }
+
   toggleDropdown() {
     if (this.state.navClass === 'dropdown') {
       this.setState({'navClass':'normal'});
