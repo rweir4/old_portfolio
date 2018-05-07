@@ -1,4 +1,44 @@
-#nav-bar-right {
+@media (max-width: 515px) {
+  #nav-bar button {
+    display: block;
+    position: fixed;
+    z-index: 20;
+    top: 10px;
+    right: 10px;
+  }
+
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 10;
+    right: 11px;
+    top: 37.5px;
+    height: 260px;
+    background: black;
+    color: white;
+    background: rgb(216, 216, 216);
+  }
+}
+
+@media (min-width: 516) {
+  #nav-bar a {
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  #nav-bar button {
+    display: none;
+  }
+}
+
+#nav-bar {
   position: fixed;
   display: flex;
   justify-content: flex-end;
@@ -10,13 +50,17 @@
   padding-right: 30px;
 }
 
-#nav-bar-right a {
+#nav-bar a {
   margin: 15px;
   text-decoration: none;
   color: white;
   line-height: 20px;
 }
 
-#nav-bar-right a:hover {
+#nav-bar a:hover {
   color: #2E4047;
+}
+
+.hide {
+  display: none;
 }

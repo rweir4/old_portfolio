@@ -1,3 +1,51 @@
+@media screen and (max-width: 860px) {
+  #home-header img {
+    width: 233px;
+    height: 233px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  #home-background-img {
+    height: 400px;
+  }
+
+  #home-header img {
+    width: 203px;
+    height: 203px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #home-header {
+    height: 500px;
+  }
+
+  #home-header img {
+    width: 153px;
+    height: 153px;
+  }
+
+  #home-header p {
+    font-size: 14px;
+  }
+
+  .homepage-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  #home-header img {
+    width: 43px;
+    height: 43px;
+    position: fixed;
+    z-index: 10;
+    top: 3px;
+    left: 10px;
+  }
+}
+
 .homepage {
   position: relative;
 }
@@ -5,6 +53,9 @@
 #home-background-img {
   position: absolute;
   z-index: -5;
+  width: 100%;
+  max-height: 1000px;
+  object-fit: cover;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -12,7 +63,7 @@
 #home-header {
   text-align: center;
   padding-top: 200px;
-  height: 1080px;
+  height: 1000px;
   background: rgba(191, 180, 178, 0.5);
 }
 
@@ -20,20 +71,11 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 273px;
-  width: 273px;
-  padding: 3px;
+  max-height: 273px;
+  max-width: 273px;
+  padding: 0.15%;
   background: white;
   border-radius: 50%;
-}
-
-#home-header p {
-  display: inline;
-  color: white;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  font-family: 'Gothic A1', sans-serif;
-  font-size: 35px;
 }
 
 .homepage-title {
@@ -42,6 +84,16 @@
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 80px;
+}
+
+#home-header p {
+  margin: 100px;
+  display: inline;
+  color: white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 35px;
 }
 
 #renaissance {

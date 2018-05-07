@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import NavBarRight from '../components/navBarRight';
+import NavBar from '../components/navBar';
 
 const BlogPage = () => (
   <div>
-    <NavBarRight />
+    <NavBar />
     <Link to="/page-2/">Go to page 2</Link>
     <Link to="/">Go Home</Link>
   </div>

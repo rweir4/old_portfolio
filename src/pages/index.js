@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Header from '../components/header';
-import NavBarRight from '../components/navBarRight';
+import NavBar from '../components/navBar';
 import rwLogo from '../../assets/images/rw-logo.png';
 import flasks from '../../assets/images/flasks.png';
 import coding from '../../assets/images/coding (1).png';
@@ -11,7 +11,7 @@ import backgroundImg from '../../assets/images/background-image.jpg';
 
 const IndexPage = () => (
   <div className="homepage">
-    <NavBarRight />
+    <NavBar />
     <img id="home-background-img" src={backgroundImg} />
     <header id="home-header">
       <img src={rwLogo}/>
