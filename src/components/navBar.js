@@ -4,14 +4,14 @@ import Link from 'gatsby-link';
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { navClass: 'hide' };
+    this.state = { navClass: 'normal' };
 
     this.toggleDropdown = this.toggleDropdown.bind(this);
   }
 
   toggleDropdown() {
     if (this.state.navClass === 'dropdown') {
-      this.setState({'navClass':'hide'});
+      this.setState({'navClass':'normal'});
     } else {
       this.setState({'navClass':'dropdown'});
     }
@@ -19,7 +19,7 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div id="nav-bar">
+      <div className="nav-bar">
         <div className={this.state.navClass}>
           <Link to="/">About</Link>
           <Link to="/coding">Coding</Link>

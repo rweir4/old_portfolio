@@ -1,5 +1,5 @@
 @media (max-width: 515px) {
-  #nav-bar button {
+  .nav-bar button {
     display: block;
     position: fixed;
     z-index: 20;
@@ -19,10 +19,15 @@
     color: white;
     background: rgb(216, 216, 216);
   }
+
+  .normal {
+    display: none;
+  }
 }
 
 @media (min-width: 516) {
-  #nav-bar a {
+  .nav-bar a {
+    display: block;
     margin: 15px;
     text-decoration: none;
     color: white;
@@ -33,12 +38,12 @@
     display: none;
   }
 
-  #nav-bar button {
+  .nav-bar button {
     display: none;
   }
 }
 
-#nav-bar {
+.nav-bar {
   position: fixed;
   display: flex;
   justify-content: flex-end;
@@ -50,14 +55,14 @@
   padding-right: 30px;
 }
 
-#nav-bar a {
+.nav-bar a {
   margin: 15px;
   text-decoration: none;
   color: white;
   line-height: 20px;
 }
 
-#nav-bar a:hover {
+.nav-bar a:hover {
   color: #2E4047;
 }
 
