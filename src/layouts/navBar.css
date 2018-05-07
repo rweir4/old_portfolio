@@ -1,0 +1,22 @@
+#nav-bar-right {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: middle;
+  z-index: 5;
+  width: 100%;
+  height: 50px;
+  background: rgba(216, 216, 216, 0.5);
+  padding-right: 30px;
+}
+
+#nav-bar-right a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  line-height: 20px;
+}
+
+#nav-bar-right a:hover {
+  color: #2E4047;
+}
