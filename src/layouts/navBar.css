@@ -72,6 +72,29 @@
   color: #D6CDD9;
 }
 
+.color-dark {
+  background: #2E4047;
+}
+
+.color-purple {
+  color: #d0c9d9;
+}
+
 .hide {
   display: none;
+}
+
+.white-logo {
+  width: 43px;
+  height: 43px;
+  position: fixed;
+  z-index: 10;
+  top: 3px;
+  left: 10px;
+}
+
+#project-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Open Sans, sans-serif;
 }

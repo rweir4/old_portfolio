@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import WhiteLogo from '../../assets/images/rw-logo-white.png';
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -27,7 +28,8 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <div className="nav-bar">
+      <div className={`nav-bar color-${this.props.background}`}>
+        <img className="white-logo" src={WhiteLogo} />
         <div className={this.state.navClass}>
           <Link to="/">About</Link>
           <Link to="/coding">Coding</Link>
@@ -35,7 +37,7 @@ class NavBar extends React.Component {
           <Link to="/biochemistry/">Biochemistry</Link>
           <Link to="/blog/">Blog</Link>
         </div>
-        <button className="hide" onClick={this.toggleDropdown}>
+        <button className={`hide color-${this.props.hamburger}`} onClick={this.toggleDropdown}>
           <i className="fas fa-bars"></i>
         </button>
       </div>

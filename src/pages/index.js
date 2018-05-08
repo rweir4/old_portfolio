@@ -57,7 +57,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <div className="homepage">
-        <NavBar />
+        <NavBar background="light" hamburger="dark"/>
         <span>
           <img id="home-background-img" src={backgroundImg} />
         </span>

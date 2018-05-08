@@ -7,6 +7,7 @@ import './index.css';
 import './home.css';
 import './navBar.css';
 import './footer.css';
+import './coding.css';
 
 const Layout = ({ children, data }) => (
   <div>
