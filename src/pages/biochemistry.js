@@ -5,6 +5,7 @@ import NavBar from '../components/navBar';
 const SciencePage = () => (
   <div>
     <NavBar />
+    
   </div>
 );
 

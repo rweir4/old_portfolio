@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({ className, siteTitle }) => (
-    <h1 className={className}>
+const Header = ({ id, className, siteTitle }) => (
+    <h1 id={id} className={className}>
         {siteTitle}
     </h1>
 );

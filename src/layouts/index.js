@@ -6,6 +6,7 @@ import Header from '../components/header';
 import './index.css';
 import './home.css';
 import './navBar.css';
+import './footer.css';
 
 const Layout = ({ children, data }) => (
   <div>

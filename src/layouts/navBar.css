@@ -5,19 +5,24 @@
     z-index: 20;
     top: 10px;
     right: 10px;
+    background: none;
+    border: none;
+  }
+
+  .nav-bar button:hover {
+    cursor: pointer;
   }
 
   .dropdown {
     display: flex;
     flex-direction: column;
     position: fixed;
-    z-index: 10;
     right: 11px;
     top: 37.5px;
     height: 260px;
     background: black;
     color: white;
-    background: rgb(216, 216, 216);
+    background: rgb(14, 25, 28);
   }
 
   .normal {
@@ -44,6 +49,7 @@
 }
 
 .nav-bar {
+  font-family: 'Open Sans', sans-serif;
   position: fixed;
   display: flex;
   justify-content: flex-end;
@@ -63,7 +69,7 @@
 }
 
 .nav-bar a:hover {
-  color: #2E4047;
+  color: #D6CDD9;
 }
 
 .hide {
