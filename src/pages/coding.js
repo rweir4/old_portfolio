@@ -93,18 +93,34 @@ class CodingPage extends React.Component {
         <section id="skills">
           <h1>Skills</h1>
           <div id="skills-list">
-            <img src={RubyLogo} alt="Ruby"/>
-            <img src={RailsLogo} alt="Rails"/>
-            <img src={ReactLogo} alt="React"/>
-            <img src={JSLogo} alt="Javascript"/>
-            <img src={JQueryLogo} alt="JQuery"/>
-            <img src={JBuilderLogo} alt="JBuilder"/>
-            <img src={HTMLLogo} alt="HTML & Canvas"/>
-            <img src={CSSLogo} alt="CSS3"/>
+            <div>
+              <img src={RubyLogo}/><p>Ruby</p>
+            </div>
+            <div>
+              <img src={RailsLogo}/><p>Rails</p>
+            </div>
+            <div>
+              <img src={ReactLogo}/><p>React</p>
+            </div>
+            <div>
+              <img src={JSLogo}/><p>Javascript</p>
+            </div>
+            <div>
+              <img src={JQueryLogo}/><p>JQuery</p>
+            </div>
+            <div>
+              <img src={JBuilderLogo}/><p>JBuilder</p>
+            </div>
+            <div>
+              <img src={HTMLLogo}/><p>HTML & Canvas</p>
+            </div>
+            <div>
+              <img src={CSSLogo}/><p>CSS3</p>
+            </div>
           </div>
         </section>
         <p id="email">
-          If you're interested in working with me, then shoot me an&nbsp;
+          If you're interested in hiring me, take a look at my&nbsp;<Link to="/resume"> resume</Link>&nbsp;and shoot me an&nbsp;
           <a href="mailto:rebeccaweir12@gmail.com?">email.</a>
         </p>
         <section id="insta-container">

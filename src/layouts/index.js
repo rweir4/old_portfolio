@@ -8,6 +8,7 @@ import './home.css';
 import './navBar.css';
 import './footer.css';
 import './coding.css';
+import './biochemistry.css';
 
 const Layout = ({ children, data }) => (
   <div>

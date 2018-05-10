@@ -85,20 +85,27 @@
 }
 
 #skills {
-  background: #C1B3B1;
+  background: #D6CDD9;
 }
 
 #skills h1 {
   color: white;
+  padding-top: 40px;
 }
 
 #skills-list {
   width: 90%;
-  height: 500px;
+  min-height: 500px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: auto;
+  padding-bottom: 80px;
+}
+
+#skills-list div {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
 }
 
 #skills-list img {
