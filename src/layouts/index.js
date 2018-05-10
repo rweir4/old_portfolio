@@ -9,6 +9,7 @@ import './navBar.css';
 import './footer.css';
 import './coding.css';
 import './biochemistry.css';
+import './writing.css';
 
 const Layout = ({ children, data }) => (
   <div>

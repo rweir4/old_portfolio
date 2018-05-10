@@ -3,10 +3,10 @@ import Link from 'gatsby-link';
 import NavBar from '../components/navBar';
 
 const BlogPage = () => (
-  <div>
+  <div id="writing">
     <NavBar />
-    <Link to="/page-2/">Go to page 2</Link>
-    <Link to="/">Go Home</Link>
+    <h1>You've found a page that is still in the works.</h1>
+    <h2>Blog posts to come soon!</h2>
   </div>
 )
 
