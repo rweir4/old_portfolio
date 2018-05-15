@@ -1,0 +1,2 @@
+webpackJsonp([21571110180671],{206:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=u(2),a=l(n),d=u(14),f=(l(d),u(42)),r=l(f),c=function(){return a.default.createElement("div",null,a.default.createElement(r.default,null))};t.default=c,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-biochemistry-js-ef520a58ec51011f90a2.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([0xa27c644eea74],{210:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=u(2),a=l(n),d=u(14),f=(l(d),u(42)),r=l(f),c=function(){return a.default.createElement("div",null,a.default.createElement(r.default,null))};t.default=c,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-writing-js-2153a6f41d220567d28a.js.map

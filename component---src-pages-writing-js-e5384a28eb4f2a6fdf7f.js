@@ -1,0 +1,2 @@
+webpackJsonp([0xa27c644eea74],{216:function(e,t,n){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=n(1),a=l(u),o=n(9),r=(l(o),n(43)),d=l(r),f=function(){return a.default.createElement("div",{id:"writing"},a.default.createElement(d.default,null),a.default.createElement("h1",null,"You've found a page that is still in the works."),a.default.createElement("h2",null,"Info on my writing to come soon!"))};t.default=f,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-writing-js-e5384a28eb4f2a6fdf7f.js.map
